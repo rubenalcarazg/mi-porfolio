@@ -29,15 +29,17 @@ Estas son algunas de las tecnologías que manejo:
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ---
+## 🔹 Preview Portafolio
 
+![Proyecto Demo](public/assets/images/captura_hero.png)
+
+---
 ## 🔹 Proyectos Destacados
 
 ### 🌐 Proyecto Web: [Proyecto Comunidad]
 - **Descripción:** Sitio web desarrollado para una comunidad de vecinos, con toda clase de interactividades, reserva de zonas comunes, visualizacion de noticas, etc...  
 - **Tecnologías:** HTML, CSS, JavaScript, Bootstrap, PHP  
-- **Demo / Enlace:** [Ver proyecto](#)  
-
-![Proyecto Demo](assets/images/captura_hero.png)
+- **Demo / Enlace:** [https://github.com/rubenalcarazg/Proyecto-Comunidad](#)  
 
 *(Pronto agregaré más proyectos a medida que avance en mi aprendizaje.)*
 
