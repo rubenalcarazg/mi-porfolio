@@ -42,9 +42,9 @@ Estas son algunas de las tecnologías que manejo:
 ---
 
 ## 🔹 Contacto
-📧 **Email:** rubenalcarazg04@gmail.com  
-💼 **LinkedIn:** [www.linkedin.com/in/rubén-alcaraz-gadea](#)  
-🐱 **GitHub:** [rubenalcarazg](https://github.com/rubenalcarazg)  
+[![Email](public/assets/images/gmail_icon.png)] **Email:** rubenalcarazg04@gmail.com  
+[![LinkedIn](public/assets/images/linkedin_icon.png)] **LinkedIn:** [www.linkedin.com/in/rubén-alcaraz-gadea](#)  
+[![GitHub](public/assets/images/github.png)]**GitHub:** [rubenalcarazg](https://github.com/rubenalcarazg)  
 
 ---
 
