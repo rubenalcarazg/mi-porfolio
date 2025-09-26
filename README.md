@@ -1,59 +1,54 @@
-# Porfolio
+# Rubén Alcaraz – Portafolio Personal 🌟
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.6.
+¡Bienvenido a mi portafolio! Aquí comparto información sobre mí, mis habilidades, proyectos y cómo contactarme.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🔹 Sobre mí
+Soy **Rubén Alcaraz**, desarrollador web en constante aprendizaje, apasionado por crear experiencias digitales intuitivas y visualmente atractivas.  
+Me encanta explorar nuevas tecnologías y aplicarlas en proyectos personales y prácticos.  
 
-```bash
-ng serve
-```
+---
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🔹 Experiencia
+Actualmente me dedico a **desarrollar proyectos web personales**, realizando buenas prácticas de desarrollo, diseño responsivo y UX/UI.
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🔹 Tecnologías
+Estas son algunas de las tecnologías que manejo:
 
-```bash
-ng generate component component-name
-```
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🔹 Proyectos Destacados
 
-## Building
+### 🌐 Proyecto Web: [Proyecto Comunidad]
+- **Descripción:** Sitio web desarrollado para una comunidad de vecinos, con toda clase de interactividades, reserva de zonas comunes, visualizacion de noticas, etc...  
+- **Tecnologías:** HTML, CSS, JavaScript, Bootstrap, PHP  
+- **Demo / Enlace:** [Ver proyecto](#)  
 
-To build the project run:
+![Proyecto Demo](assets/images/captura_hero.png)
 
-```bash
-ng build
-```
+*(Pronto agregaré más proyectos a medida que avance en mi aprendizaje.)*
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+## 🔹 Contacto
+📧 **Email:** rubenalcarazg04@gmail.com  
+💼 **LinkedIn:** [www.linkedin.com/in/rubén-alcaraz-gadea](#)  
+🐱 **GitHub:** [rubenalcarazg](https://github.com/rubenalcarazg)  
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+---
 
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+✨ ¡Gracias por visitar mi portafolio!  
+Me encanta conectar con otros desarrolladores y aprender juntos.  
