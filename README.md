@@ -42,11 +42,13 @@ Estas son algunas de las tecnologías que manejo:
 ---
 
 ## 🔹 Contacto
-![Email](public/assets/images/gmail_icon.png) **Email:** rubenalcarazg04@gmail.com  
-![LinkedIn](public/assets/images/linkedin_icon.png) **LinkedIn:** [www.linkedin.com/in/rubén-alcaraz-gadea](www.linkedin.com/in/rubén-alcaraz-gadea)  
-![GitHub](public/assets/images/github_icon.png) **GitHub:** [rubenalcarazg](https://github.com/rubenalcarazg)  
+![Email](public/assets/images/gmail_32px.png) **Email:** rubenalcarazg04@gmail.com
+
+![LinkedIn](public/assets/images/linkedin_32px.png) **LinkedIn:** [www.linkedin.com/in/rubén-alcaraz-gadea](https://www.linkedin.com/in/rubén-alcaraz-gadea)  
+
+![GitHub](public/assets/images/github_32px.png) **GitHub:** [rubenalcarazg](https://github.com/rubenalcarazg)  
 
 ---
 
 ✨ ¡Gracias por visitar mi portafolio!  
-Me encanta conectar con otros desarrolladores y aprender juntos.  
+Me encanta conectar con otros desarrolladores y aprender juntos.
