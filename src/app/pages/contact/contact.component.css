@@ -1,0 +1,148 @@
+/* Configuración de la fuente Inter (importada globalmente, pero replicada para claridad) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.contact-card {
+  padding: 15px 20px; 
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: space-between; 
+  color: inherit;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.contact-card.gmail:hover { border-color: #DB4437; box-shadow: 0 12px 24px rgba(219, 68, 55, 0.25); }
+.contact-card.linkedin:hover { border-color: #0A66C2; box-shadow: 0 12px 24px rgba(10, 102, 194, 0.25); }
+.contact-card.github:hover { border-color: #171515; box-shadow: 0 12px 24px rgba(23, 21, 21, 0.15); }
+
+.contact-card.gmail:hover .icon-wrapper { color: #DB4437; }
+.contact-card.linkedin:hover .icon-wrapper { color: #0A66C2; }
+.contact-card.github:hover .icon-wrapper { color: #171515; }
+
+.copy-button-small {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 2px solid #3b82f6;
+  background-color: #e5f1ff; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copy-button-small svg {
+  stroke: #1e40af; 
+  transition: stroke 0.2s;
+}
+
+.copy-button-small:hover svg {
+  stroke: #1e40af; 
+}
+
+.copy-button-small:hover {
+  background-color: #d1e5ff;
+  border-color: #1e40af;
+  transform: scale(1.05);
+}
+
+.copy-button-small.copy-success-bg {
+  background-color: #10B981 !important; 
+  border-color: #059669 !important;
+}
+.copy-button-small.copy-success-bg svg {
+  stroke: white !important;
+}
+
+@keyframes copied {
+  0% { transform: scale(0); opacity: 0; }
+  80% { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(1); }
+}
+.animate-pop-in {
+  animation: copied 0.3s ease-out forwards;
+}
+
+.contact-link-area {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-grow: 1; 
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  z-index: 1;
+}
+
+/* ---------- FIX PARA ICONOS FONT AWESOME ---------- */
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;         
+  height: 40px;
+  flex: 0 0 40px;      
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow: visible;
+  transition: color 0.3s ease;
+}
+
+.icon-wrapper i,
+.icon-wrapper i::before,
+.icon-wrapper svg,
+.icon-wrapper .svg-inline--fa {
+  position: static !important;
+  display: inline-block !important;
+  width: auto !important;
+  height: auto !important;
+  transform: none !important;
+  margin: 0 !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  vertical-align: middle !important;
+  line-height: 1 !important;
+}
+
+.icon-wrapper .fab, .fas {
+  font-size: 1.9rem; 
+}
+
+.copy-button-small {
+  position: relative;
+  z-index: 2;
+}
+
+.availability-card { 
+  border: 2px solid #10b981; 
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(16, 185, 129, 0.15);
+  transition: all 0.3s;
+}
+.availability-card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 12px 24px rgba(16, 185, 129, 0.25);
+}

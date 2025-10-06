@@ -5,5 +5,6 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   imports: [],
   templateUrl: './tecnologias.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
+  styleUrls: ['./tecnologias.component.css']
 })
 export class TecnologiasComponent { }

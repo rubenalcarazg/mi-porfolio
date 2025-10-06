@@ -7,6 +7,4 @@ import { ChatComponent } from "./chat/chat.component";
   templateUrl: './about-me.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class AboutMeComponent{
-  
- }
+export class AboutMeComponent{ }

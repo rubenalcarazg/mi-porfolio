@@ -1,9 +1,17 @@
+<app-bg-effect/>
+
 <app-navbar/>
 
-<app-hero/>
+<app-hero id="hero"/>
 
-<app-about-me/>
+<app-scroll-reveal> <app-about-me id="sobre-mi" />          <app-scroll-reveal/>
 
-<app-experience/>
+<app-scroll-reveal> <app-experience  id="experiencia"/>     <app-scroll-reveal/>
 
-<app-tecnologias/>
+<app-scroll-reveal> <app-tecnologias  id="tecnologias"/>    </app-scroll-reveal>
+
+<app-scroll-reveal> <app-proyects  id="proyectos"/>         </app-scroll-reveal>
+
+<app-scroll-reveal> <app-contact  id="contacto"/>           </app-scroll-reveal>
+
+<router-outlet></router-outlet>

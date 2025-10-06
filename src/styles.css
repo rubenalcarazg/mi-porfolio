@@ -8,9 +8,31 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px); /* Ajusta este valor para más o menos rebote */
+    transform: translateY(-10px);
   }
 }
 .animate-bounce-sm:hover {
   animation: bounce-sm 0.5s ease-in-out;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+#experiencia,
+#proyectos {
+  scroll-margin-top: 30px;
+}
+
+@media (max-width: 767px) {
+  #hero,
+  #sobre-mi,
+  #contacto {
+    scroll-margin-top: 30px;
+  }
+  #experiencia,
+  #tecnologias,
+  #proyectos {
+    scroll-margin-top: 60px;
+  }
 }

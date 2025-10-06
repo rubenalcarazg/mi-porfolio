@@ -2,17 +2,109 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes fadeInScale {
-  from {
-    opacity: 0;
-    transform: scale(0.9);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
+    :host {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 20px;
+        font-family: 'Inter', sans-serif;
+        padding-bottom: 20px;
+    }
 
-.animate-fadeInScale {
-  animation: fadeInScale 0.5s ease-in-out forwards;
-}
+    .mobile-screen {
+        width: 100%;
+        max-width: 380px;
+        height: 700px;
+        background-color: #fff;
+        border: 12px solid #333;
+        border-radius: 40px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+        position: relative;
+    }
+
+    .chat-header {
+        background-color: #075E54;
+        color: white;
+        padding: 15px 10px;
+        display: flex;
+        align-items: center;
+        font-size: 1.1em;
+        font-weight: bold;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+    .profile-pic {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+        font-weight: normal;
+        flex-shrink: 0;
+        overflow: hidden; 
+    }
+
+    .chat-container {
+        padding: 10px;
+        background-image: url('/assets/images/whatsapp-bg.png'); 
+        background-size: cover;
+        background-position: center;
+        background-color: #ECE5DD; 
+        height: calc(100% - 70px - 60px); 
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .message {
+        margin-bottom: 8px;
+        clear: both;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+    }
+
+    .message.visible {
+        opacity: 1;
+    }
+
+    .bubble {
+        max-width: 100%;
+    }
+
+    .interviewer-bubble {
+        background-color: #FFFFFF;
+        color: #1F2937;
+    }
+
+    .you-bubble {
+        background-color: #DCF8C6; 
+        color: #1F2937;
+    }
+
+    .avatar {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        align-self: flex-start;
+        margin-top: 5px;
+        overflow: hidden; 
+    }
+
+    .chat-footer {
+        background-color: #f7f7f7;
+        width: 100%;
+        box-sizing: border-box;
+        border-top: 1px solid #ddd;
+        position: absolute; 
+        bottom: 0;
+    }

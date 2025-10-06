@@ -1,0 +1,9 @@
+<div class="background-container">
+      @for (particle of particles(); track particle.id) {
+        <span
+          class="particle"
+          [style]="getParticleStyles(particle)"
+          aria-hidden="true"
+        ></span>
+      }
+    </div>
