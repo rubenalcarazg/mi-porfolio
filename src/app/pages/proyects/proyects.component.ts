@@ -29,7 +29,7 @@ export class ProyectsComponent {
                 "Arquitectura modular y código mantenible con TypeScript.",
                 "Animaciones y transiciones CSS fluidas para una experiencia de usuario (UX) óptima.",
             ],
-            demoLink: "",
+            demoLink: "https://rubenalcarazg.github.io/mi-porfolio/#/",
             codeLink: "https://github.com/rubenalcarazg/mi-porfolio",
             hasDemo: true,
         },
