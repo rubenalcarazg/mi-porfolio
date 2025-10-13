@@ -33,7 +33,7 @@ Estas son algunas de las tecnologías que manejo:
 
 ## 🔹 Proyectos Destacados
 
-### 🌐 Proyecto Web: [Proyecto Comunidad]
+### 📜 Proyecto Web: [Portafolio]
 - **Descripción:** Sitio web de portafolio personal, diseñado para la gestión de contactos y recursos. Incluye secciones dedicadas para explorar mis proyectos y tecnologías manejadas de forma visual y accesible.   
 - **Tecnologías:** HTML, CSS, JavaScript, Angular, Tailwind, Node.js  
 - **Demo / Enlace:** [https://rubenalcarazg.github.io/mi-porfolio/#/](https://rubenalcarazg.github.io/mi-porfolio/#/)  
