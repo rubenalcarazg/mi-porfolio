@@ -25,6 +25,7 @@ Estas son algunas de las tecnologías que manejo:
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
@@ -33,9 +34,14 @@ Estas son algunas de las tecnologías que manejo:
 ## 🔹 Proyectos Destacados
 
 ### 🌐 Proyecto Web: [Proyecto Comunidad]
+- **Descripción:** Sitio web de portafolio personal, diseñado para la gestión de contactos y recursos. Incluye secciones dedicadas para explorar mis proyectos y tecnologías manejadas de forma visual y accesible.   
+- **Tecnologías:** HTML, CSS, JavaScript, Angular, Tailwind, Node.js  
+- **Demo / Enlace:** [https://rubenalcarazg.github.io/mi-porfolio/#/](https://rubenalcarazg.github.io/mi-porfolio/#/)  
+
+### 🌐 Proyecto Web: [Proyecto Comunidad]
 - **Descripción:** Sitio web desarrollado para una comunidad de vecinos, con toda clase de interactividades, reserva de zonas comunes, visualizacion de noticas, etc...  
 - **Tecnologías:** HTML, CSS, JavaScript, Bootstrap, PHP  
-- **Demo / Enlace:** [https://github.com/rubenalcarazg/Proyecto-Comunidad](https://github.com/rubenalcarazg/Proyecto-Comunidad)  
+- **Código:** [https://github.com/rubenalcarazg/Proyecto-Comunidad](https://github.com/rubenalcarazg/Proyecto-Comunidad)  
 
 *(Pronto agregaré más proyectos a medida que avance en mi aprendizaje.)*
 
